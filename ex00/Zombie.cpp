@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-Zombie::Zombie(std::string name) : name{name} { }
+Zombie::Zombie(const std::string& name) : name(name) { }
 
 Zombie::~Zombie() {
 	std::cout << this->name << " got disintegrated\n";

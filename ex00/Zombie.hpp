@@ -4,9 +4,12 @@
 
 class Zombie {
 public:
-	Zombie(std::string name);
+	Zombie(const std::string& name);
 	~Zombie();
 	void announce();
 private:
-	std::string name;
+	const std::string& name;
 };
+
+Zombie* newZombie(std::string name);
+void randomChump(const std::string name);
