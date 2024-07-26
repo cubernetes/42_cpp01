@@ -2,12 +2,12 @@
 
 #include <iostream>
 
-Zombie::Zombie(const std::string& name) : name(name) { }
+Zombie::Zombie(const std::string& name) : _name(name) {}
 
 Zombie::~Zombie() {
-	std::cout << this->name << " got disintegrated\n";
+	std::cout << this->_name << " got disintegrated\n";
 }
 
 void Zombie::announce() {
-	std::cout << this->name << ": BraiiiiiiinnnzzzZ...\n";
+	std::cout << this->_name << ": BraiiiiiiinnnzzzZ...\n";
 }
