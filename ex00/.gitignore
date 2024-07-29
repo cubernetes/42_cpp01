@@ -1,0 +1,10 @@
+# build artefacts
+megaphone
+a.out
+
+# objects
+obj/
+
+# clangd stuff
+.cache/
+compile_commands.json
