@@ -22,6 +22,7 @@ CFLAGS += -Wconversion
 CFLAGS += -Wunreachable-code
 CFLAGS += -std=c++98
 CFLAGS += -Werror
+CFLAGS += -MMD
 
 CXXFLAGS :=
 

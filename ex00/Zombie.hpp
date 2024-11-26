@@ -3,11 +3,12 @@
 #include <string>
 
 class Zombie {
-	const std::string& _name;
 public:
 	Zombie(const std::string& name = "anonymous");
 	~Zombie();
 	void announce();
+private:
+	const std::string& _name;
 };
 
 Zombie* newZombie(std::string name);
