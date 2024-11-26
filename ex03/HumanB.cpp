@@ -8,9 +8,9 @@ HumanB::HumanB(const std::string& name)
 
 void HumanB::attack() const {
 	if (this->_weapon == NULL)
-		std::cout << this->_name << " is unarmed!" << std::endl;
+		std::cout << this->_name << " is unarmed!" << "\n";
 	else
-		std::cout << this->_name << " attacks with their " << this->_weapon->getType() << std::endl;
+		std::cout << this->_name << " attacks with their " << this->_weapon->getType() << "\n";
 }
 
 void HumanB::setWeapon(const Weapon& weapon) {

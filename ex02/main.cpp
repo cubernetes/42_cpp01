@@ -6,14 +6,14 @@ int main() {
 	std::string& stringREF(string);
 
 	std::cout << "Memory addresses of the string\n";
-	std::cout << "&string: " << &string << std::endl;
-	std::cout << "stringPTR: " << stringPTR << std::endl;
-	std::cout << "&stringREF: " << &stringREF << std::endl
-		<< std::endl;
+	std::cout << "&string: " << &string << "\n";
+	std::cout << "stringPTR: " << stringPTR << "\n";
+	std::cout << "&stringREF: " << &stringREF << "\n"
+		<< "\n";
 
 	std::cout << "Values of the variables\n";
-	std::cout << "string: " << string << std::endl;
-	std::cout << "*stringPTR: " << *stringPTR << std::endl;
-	std::cout << "stringREF: " << stringREF << std::endl;
+	std::cout << "string: " << string << "\n";
+	std::cout << "*stringPTR: " << *stringPTR << "\n";
+	std::cout << "stringREF: " << stringREF << "\n";
 	return 0;
 }
