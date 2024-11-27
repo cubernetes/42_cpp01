@@ -9,4 +9,5 @@ int	main(void)
 	harl.complain("WARNING");
 	harl.complain("ERROR");
 	harl.complain("ERRaOR");
+	return (0);
 }
